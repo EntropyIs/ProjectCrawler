@@ -10,3 +10,13 @@ The majority of the objects in the engine need to be identifiable, this class fo
 _v0.0.1_
 - Implement Identifiable Object Class.
 - Implement Identifiable Object Test Cases.
+
+_v0.0.2_
+- Implement Game Object Class.
+- Implement Game Object Test Cases.
+- Implement Item Class.
+- Implement Item Test Cases.
+- Implement Inventory Class.
+- Implement Inventory Test Cases.
+- Implement Player Class.
+- Implement Player Test Cases.

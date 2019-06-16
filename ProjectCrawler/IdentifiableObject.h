@@ -19,8 +19,8 @@ public:
 	IdentifiableObject(const std::vector<std::string>& aIdentifiers);
 	virtual ~IdentifiableObject() {};
 
-	const bool AreYou(std::string & aIdentifier);
-	const std::string & Identity();
+	const bool AreYou(std::string & aIdentifier) const;
+	const std::string & Identity() const;
 
 	void AddIdentifier(std::string & aIdentifier);
 };

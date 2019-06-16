@@ -34,7 +34,7 @@ IdentifiableObject::IdentifiableObject(const std::vector<std::string>& aIdentifi
  *	@param		aIdentifier, identifier to check for.
  *	@return		bool, true if identifier is found.
  */
-const bool IdentifiableObject::AreYou(std::string & aIdentifier)
+const bool IdentifiableObject::AreYou(std::string & aIdentifier) const
 {
 	std::transform(aIdentifier.begin(), aIdentifier.end(), aIdentifier.begin(), ::tolower);
 	for (size_t i = 0; i < fIdentifiers.size(); i++)
@@ -48,7 +48,7 @@ const bool IdentifiableObject::AreYou(std::string & aIdentifier)
  *	Returns default identifier.
  *	@return		string, default identifier.
  */
-const std::string & IdentifiableObject::Identity()
+const std::string & IdentifiableObject::Identity() const
 {
 	return fIdentifiers[0];
 }
