@@ -8,7 +8,6 @@
  *	@author		J.P. Galovic.
  *	@date		06/2019.
  */
-
 class GameObject : public IdentifiableObject
 {
 protected:
@@ -18,6 +17,7 @@ protected:
 public:
 	GameObject(std::string & aIdentifier, const std::string & aName, const std::string & aDescription);
 	GameObject(const std::vector<std::string> & aIdentifiers, const std::string & aName, const std::string & aDescription);
+	GameObject() :IdentifiableObject() {};
 
 	virtual const std::string & Name() const;
 	virtual const std::string & Description() const;

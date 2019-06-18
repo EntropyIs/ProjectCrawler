@@ -17,6 +17,7 @@ protected:
 public:
 	IdentifiableObject(std::string & aIdentifier);
 	IdentifiableObject(const std::vector<std::string>& aIdentifiers);
+	IdentifiableObject() {};
 	virtual ~IdentifiableObject() {};
 
 	const bool AreYou(std::string & aIdentifier) const;

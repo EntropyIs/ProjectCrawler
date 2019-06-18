@@ -117,11 +117,13 @@
   <ItemGroup>
     <ClInclude Include="GameObject.h" />
     <ClInclude Include="IdentifiableObject.h" />
+    <ClInclude Include="Inventory.h" />
     <ClInclude Include="Item.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="GameObject.cpp" />
     <ClCompile Include="IdentifiableObject.cpp" />
+    <ClCompile Include="Inventory.cpp" />
     <ClCompile Include="Source.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
