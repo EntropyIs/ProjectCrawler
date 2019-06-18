@@ -2,6 +2,13 @@
 
 #include "IdentifiableObject.h"
 
+/**
+ *	Game Object.
+ *	TODO: Add adiquate class description.
+ *	@author		J.P. Galovic.
+ *	@date		06/2019.
+ */
+
 class GameObject : public IdentifiableObject
 {
 protected:

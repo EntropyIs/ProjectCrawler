@@ -13,7 +13,6 @@ _v0.0.1_
 
 _v0.0.2_
 - Implement Game Object Class.
-- Implement Game Object Test Cases.
 - Implement Item Class.
 - Implement Item Test Cases.
 - Implement Inventory Class.
