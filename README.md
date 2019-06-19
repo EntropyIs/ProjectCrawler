@@ -39,6 +39,15 @@ _Public Methods_
 - Fetch(itentifier) : Fetches item from inventory (does not remove).
 - ItemList() : Generates list of items contained within inventory.
 
+#### Player
+Player class, defines user controlled game object.
+
+_Public Methods_
+- Player(name, description) : Class constructor, takes strings for name and description.
+- Locate(identifier) : Locates a game object with given identifier, searches in self and inventory.
+- FullDescription() : Long Description for player, "_You are_ name _, you are carrying:_ items in inventory"
+- Inventory() : Accessor for players inventory.
+
 ## Changelog.
 _v0.0.1_
 - Implement Identifiable Object Class.
